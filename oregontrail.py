@@ -1,1 +1,2 @@
-print('oregon trail');
+print('oregon trail')
+print('hello')
