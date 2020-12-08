@@ -21,6 +21,10 @@ while len(playerName) >= 0:
             print("You didn't type anything, try again :) ")
             playerName = input("What is your name?")
 
+print("Choose your difficulty level")
+difficultyLevel = input('(Easy, Normal, Hard, El Rancho Style)')
+
+
 
 
 
