@@ -49,6 +49,46 @@ while len(difficultyLevel) >= 0:
         print("You must choose a difficulty level, check your spelling.")
         difficultyLevel = input('(Easy, Normal, Hard, El Rancho Style)')
 
+#Value settings
+distanceMoved = 0
+monthNum = 3
+daysPass = 1
+totalDays = 0
+monthsWithThirtyOneDays = [1, 3, 5, 7, 8, 10, 12]
+randomResult = 0
+healthD1 = random.randint(1, 31)
+healthD2 = random.randint(1, 31)
+accidentAppearance = random.randint(1, 30)
+travelDistance = 0
+restTime = 0
+huntTime = 0
+statusNum = 0
+monthAppear = "March"
+
+#Days
+def addDays(min, max):
+    global daysPass
+    global monthNum
+    global monthsWithThirtyOneDays
+    global randomResult
+    global foodNum
+    global healthNum
+    global healthD1
+    global healthD2
+    global totalDays
+    global accidentAppearance
+
+    randomResult = random.randint(min, max)
+    print("Now", randomResult, "days passed.")
+    days_pass_min = daysPass
+    check_big = daysPass + randomResult
+
+    #Accident
+    if accidentAppearance >= daysPass and accidentAppearance <= check_big
+        a_number = random.randint(1, 3)
+        a_health_num = random.randint(1, 2)
+        if a_number == 1:
+            print("You just crossed a Sendero")
 
 
 
