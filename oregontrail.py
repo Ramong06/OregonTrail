@@ -21,8 +21,33 @@ while len(playerName) >= 0:
             print("You didn't type anything, try again :) ")
             playerName = input("What is your name?")
 
+#Choosing Difficulty Setting
 print("Choose your difficulty level")
 difficultyLevel = input('(Easy, Normal, Hard, El Rancho Style)')
+while len(difficultyLevel) >= 0:
+    #Easy Mode
+    if difficultyLevel == "Easy":
+        foodNum = 1000
+        healthNum = 10
+        break
+    #Normal Mode
+    if difficultyLevel == "Normal":
+        foodNum = 500
+        healthNum = 7
+        break
+    #Hard Mode
+    if difficultyLevel == "Hard":
+        foodNum = 300
+        healthNum = 4
+        break
+    #El Rancho Style Mode
+    if difficultyLevel == "El Rancho Style":
+        foodNum = 100
+        healthNum = 3
+        break
+    else:
+        print("You must choose a difficulty level, check your spelling.")
+        difficultyLevel = input('(Easy, Normal, Hard, El Rancho Style)')
 
 
 
