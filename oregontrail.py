@@ -89,6 +89,10 @@ def addDays(min, max):
         a_health_num = random.randint(1, 2)
         if a_number == 1:
             print("You just crossed a Sendero")
+            if a_number == 2:
+                print("You have contracted Ojo")
+            if a_number == 3:
+                print("You have went to a baile and had a good time.")
 
 
 
