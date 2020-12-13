@@ -93,6 +93,7 @@ def addDays(min, max):
                 print("You have contracted Ojo")
             if a_number == 3:
                 print("You have went to a baile and had a good time.")
+                random_result2_food = random.randint(1, 10)
 
 
 
