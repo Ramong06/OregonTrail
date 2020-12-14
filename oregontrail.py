@@ -95,6 +95,8 @@ def addDays(min, max):
                 print("You have went to a baile and had a good time.")
                 random_result2_food = random.randint(1, 10)
                 random_result2_day = random.randint(1, 10)
+                print("You eat " + str(random_result2_food) + " lbs extra food.")
+                print("It also took up extra")
 
 
 
