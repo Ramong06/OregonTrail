@@ -97,9 +97,15 @@ def addDays(min, max):
                 random_result2_day = random.randint(1, 10)
                 print("You eat " + str(random_result2_food) + " lbs extra food.")
                 print("It also took up extra " + str(random_result2_day) + " days")
-                if a_health_d1 >= days_pass_min and health_d2 <= check_big:
+                if a_health_num == 1:
+                    print("You also lose 1 health point")
                     health_num -= 1
-                    print("You have just lost 1 health")
+                foodNum = food_num - random_result2_food - random_result2_day * 5
+                daysPass += random_result2_day
+                totalDays += random_result2_day
+
+                #Health Hits
+
 
 
 
