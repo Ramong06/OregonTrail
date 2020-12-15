@@ -84,7 +84,7 @@ def addDays(min, max):
     check_big = daysPass + randomResult
 
     #Accident
-    if accidentAppearance >= daysPass and accidentAppearance <= check_big
+    if accidentAppearance >= daysPass and accidentAppearance <= check_big:
         a_number = random.randint(1, 3)
         a_health_num = random.randint(1, 2)
         if a_number == 1:
@@ -96,7 +96,12 @@ def addDays(min, max):
                 random_result2_food = random.randint(1, 10)
                 random_result2_day = random.randint(1, 10)
                 print("You eat " + str(random_result2_food) + " lbs extra food.")
-                print("It also took up extra")
+                print("It also took up extra " + str(random_result2_day) + " days")
+                if a_health_d1 >= days_pass_min and health_d2 <= check_big:
+                    health_num -= 1
+                    print("You have just lost 1 health")
+
+
 
 
 
