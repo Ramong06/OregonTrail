@@ -113,6 +113,10 @@ def addDays(min, max):
                     healthNum -= 1
                     print("You just lost 1 health point")
 
+                daysPass += randomResult
+                totalDays += randomResult
+                foodNum -= randomResult * 5
+
 
 
 
