@@ -117,6 +117,8 @@ def addDays(min, max):
                 totalDays += randomResult
                 foodNum -= randomResult * 5
 
+            if daysPass >= 30:
+
 
 
 
